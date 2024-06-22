@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+.wrapper{
+    width: 350px;
+    height: 300px;
+    background-color: pink;
+    margin-left: 500px;
+    margin-top: 200px;
+    padding: 30px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.fa-star{
+    font-size: 1.5em;
+    color: yellow;
+}
+.number{
+    display: block;
+    text-align: center;
+}
+#submit{
+    display: block;
+    position: relative;
+    background: red;
+    padding: 0.8em 2em;
+    font-size: 1.2em;
+    color: white;
+    border-radius: 2em;
+    margin: 1em auto 0 auto;
+}
+#submit:disabled{
+    cursor: not-allowed;
+}
+#message{
+    text-emphasis:center;
+    margin-bottom: 2em;
+}
+#submit-section{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    place-items: center;
+    border-radius: 0.5em;
+
+}
+.hide{
+    display: none;
+}
+.show{
+    display: grid;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Rating</title>
+    <link rel="stylesheet" href="sr.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="wrapper">
+        <p id="message">Rate Your Experience ?</p>
+        <div class="container">
+            <div class="star-container inactive">
+                <i class="fa-regular fa-star"></i>
+                <span class="number">A</span>
+            </div>
+            <div class="star-container inactive">
+                <i class="fa-regular fa-star"></i>
+                <span class="number">B</span>
+            </div>
+            <div class="star-container inactive">
+                <i class="fa-regular fa-star"></i>
+                <span class="number">C</span>
+            </div>
+            <div class="star-container inactive">
+                <i class="fa-regular fa-star"></i>
+                <span class="number">D</span>
+            </div>
+            <div class="star-container inactive">
+                <i class="fa-regular fa-star"></i>
+                <span class="number">E</span>
+            </div>
+        </div>
+        <button id="submit" disabled>Submit</button>
+        <div id="submit-section" class="hide">
+            <p id="submit-message">Thanks For Your Rating</p>
+        </div>
+    </div>
+    <script src="sr.js"></script>
+</body>
+</html>
